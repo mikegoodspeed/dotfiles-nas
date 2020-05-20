@@ -1,2 +1,2 @@
 # dotfiles
-Personal Dotfiles
+Personal Configuration
