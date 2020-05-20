@@ -1,2 +1,2 @@
-# dotfiles
+# dotfiles-mac
 System Configuration for macOS
