@@ -1,2 +1,2 @@
 # dotfiles
-Personal Configuration
+System Configuration for macOS
