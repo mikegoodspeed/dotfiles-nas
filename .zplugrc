@@ -11,9 +11,6 @@ zplug "zsh-users/zsh-completions", from:github
 DEFAULT_USER=$USER
 zplug "agnoster/agnoster-zsh-theme", from:github, as:theme
 
-# solarized manpages
-zplug "zlsun/solarized-man", from:github, use:"solarized-man.plugin.zsh"
-
 # solarized dircolors
 DIRCOLORS_SOLARIZED_ZSH_THEME="256dark"
 zplug "pinelibg/dircolors-solarized-zsh"
