@@ -1,6 +1,6 @@
 # https://github.com/zsh-users/zsh
 
-# History
+# history
 HISTFILE=~/.zsh_history
 HISTSIZE=500000
 SAVEHIST=$HISTSIZE
@@ -16,6 +16,12 @@ setopt HIST_SAVE_NO_DUPS      # Do not write a duplicate event to the history fi
 setopt HIST_VERIFY            # Do not execute immediately upon history expansion.
 setopt HIST_BEEP              # Beep when accessing non-existent history.
 
-[ -f .zplugrc ] && source .zplugrc
-[ -f .zlerc ] && source .zlerc
-[ -f .aliases ] && source .aliases
+# bindings
+bindkey -e						  # use emacs keymap
+bindkey "\e[H" beginning-of-line  # home
+bindkey "\e[F" end-of-line        # end
+bindkey "\e[1;5C" forward-word    # ctrl+right
+bindkey "\e[1;5D" backward-word   # ctrl+left
+
+source .zplugrc
+source .aliases

@@ -4,14 +4,8 @@
 export ZPLUG_HOME=/usr/local/opt/zplug
 source $ZPLUG_HOME/init.zsh
 
-# completion
-autoload -Uz compinit; compinit
-zstyle ':completion:*' menu select                 # autocompletion with an arrow-key driven interface
-setopt COMPLETE_ALIASES                            # autocompletion of command line switches for aliases
-zstyle ':completion::complete:*' gain-privileges 1 # autocompletion of privileged environments in privileged commands
 zplug "zsh-users/zsh-autosuggestions", from:github
 zplug "zsh-users/zsh-completions", from:github
-zplug "zsh-users/zsh-history-substring-search", from:github, defer:2
 
 # agnoster theme
 DEFAULT_USER=$USER
