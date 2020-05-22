@@ -6,9 +6,9 @@ DOTFILES_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
 cd ~
 
-if [[ -e .anyconnect && ! -h .anyconnect ]]; then
-    echo "anyconnect exists and is not a symlink"
-fi
+# if [[ -e .anyconnect && ! -h .anyconnect ]]; then
+#     echo "anyconnect exists and is not a symlink"
+# fi
 
 echo "Linking .aliases"
 ln -sf $DOTFILES_DIR/.aliases
