@@ -15,38 +15,32 @@ brew "htop"
 brew "lsd"
 brew "mas"
 brew "neovim"
-brew "python"
+brew "openjdk"
+brew "python@3.9"
 brew "zplug"
 brew "zsh"
-cask "aerial"
 cask "bartender"
 cask "bbedit"
 cask "blank-screensaver"
+cask "cornercal"
 cask "dropbox"
-cask "fluid"
 cask "font-saucecodepro-nerd-font"
 cask "font-source-code-pro"
-cask "google-chrome"
-cask "intellij-idea-ce"
 cask "iterm2"
-cask "java"
 cask "keepingyouawake"
 cask "mullvadvpn"
-cask "onedrive"
 cask "plex-media-server"
 cask "pycharm"
-cask "scroll-reverser"
 cask "slack"
-cask "steermouse"
 cask "transmission"
 cask "turbo-boost-switcher"
+cask "visual-studio-code"
 cask "zoomus"
 mas "1Password", id: 443987910
 mas "AdGuard for Safari", id: 1440147259
-mas "Dato", id: 1470584107
 mas "iFlicks 3", id: 1274494218
+mas "iMovie", id: 408981434
 mas "Magnet", id: 441258766
-mas "Microsoft Remote Desktop", id: 1295203466
-mas "Sleep App", id: 1206520984
+mas "Sleep Mode Utility", id: 1206520984
 mas "StopTheMadness", id: 1376402589
 mas "Tweetbot", id: 1384080005

@@ -4,8 +4,9 @@
 export ZPLUG_HOME=/usr/local/opt/zplug
 source $ZPLUG_HOME/init.zsh
 
+# completions
+zstyle ':completion:*' matcher-list 'm:{[:lower:][:upper:]}={[:upper:][:lower:]}'
 zplug "zsh-users/zsh-autosuggestions", from:github
-zplug "zsh-users/zsh-completions", from:github
 
 # agnoster theme
 DEFAULT_USER=$USER
