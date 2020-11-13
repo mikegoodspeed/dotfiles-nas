@@ -33,7 +33,6 @@ cask "plex-media-server"
 cask "pycharm"
 cask "slack"
 cask "transmission"
-cask "turbo-boost-switcher"
 cask "visual-studio-code"
 cask "zoomus"
 mas "1Password", id: 443987910
