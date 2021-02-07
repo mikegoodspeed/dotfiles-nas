@@ -4,9 +4,6 @@ PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
 # GNU findutils
 PATH="/usr/local/opt/findutils/libexec/gnubin:$PATH"
 
-# Java
-PATH="/usr/local/opt/openjdk/bin:$PATH"
-
 # bat as a cat replacement
 alias cat="bat -p"
 
@@ -20,6 +17,3 @@ alias la="ls -a"
 alias lla="ls -la"
 alias lt="ls --tree"
 
-# neovim as a vi and vim replacment
-alias vim="nvim"
-alias vi="nvim"
