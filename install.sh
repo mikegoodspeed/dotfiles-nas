@@ -6,10 +6,6 @@ DOTFILES_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
 cd ~
 
-# if [[ -e .anyconnect && ! -h .anyconnect ]]; then
-#     echo "anyconnect exists and is not a symlink"
-# fi
-
 echo "Linking .aliases"
 ln -sf $DOTFILES_DIR/.aliases
 
@@ -24,6 +20,9 @@ ln -sf $DOTFILES_DIR/.Brewfile
 
 echo "Linking .gitconfig"
 ln -sf $DOTFILES_DIR/.gitconfig
+
+echo "Linking .hushlogin"
+ln -sf $DOTFILES_DIR/.hushlogin
 
 echo "Linking .inputrc"
 ln -sf $DOTFILES_DIR/.inputrc
@@ -44,4 +43,3 @@ brew bundle cleanup --global --force
 
 echo "Installing Iterm2 Preferences"
 ln -sf $DOTFILES_DIR/.iterm.plist ~/Library/Preferences/com.googlecode.iterm2.plist
-
