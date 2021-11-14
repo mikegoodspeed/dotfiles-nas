@@ -17,3 +17,6 @@ alias la="ls -a"
 alias lla="ls -la"
 alias lt="ls --tree"
 
+# pyenv to manage python versions
+eval "$(pyenv init --path)"
+eval "$(pyenv init -)"
