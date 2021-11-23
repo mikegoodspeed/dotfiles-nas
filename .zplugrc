@@ -1,8 +1,8 @@
 # https://github.com/zplug/zplug
 
 # init
-export ZPLUG_HOME=/usr/local/opt/zplug
-source $ZPLUG_HOME/init.zsh
+export ZPLUG_HOME="$HOMEBREW_PREFIX/opt/zplug"
+source "$ZPLUG_HOME/init.zsh"
 
 # completions
 zstyle ':completion:*' matcher-list 'm:{[:lower:][:upper:]}={[:upper:][:lower:]}'

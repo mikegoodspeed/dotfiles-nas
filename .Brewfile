@@ -19,7 +19,6 @@ cask "bbedit"
 cask "blank-screensaver"
 cask "catch"
 cask "font-sauce-code-pro-nerd-font"
-cask "google-chrome"
 cask "iterm2"
 cask "keepingyouawake"
 cask "mullvadvpn"
@@ -35,7 +34,6 @@ mas "DaisyDisk", id: 411643860
 mas "Hush", id: 1544743900
 mas "iFlicks 3", id: 1274494218
 mas "iMovie", id: 408981434
-mas "Jolt of Caffeine", id: 1437130425
 mas "Scratch 3", id: 1446785996
 mas "Sleep Mode Utility", id: 1206520984
 mas "StopTheMadness", id: 1376402589
