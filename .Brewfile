@@ -34,9 +34,11 @@ mas "DaisyDisk", id: 411643860
 mas "Hush", id: 1544743900
 mas "iFlicks 3", id: 1274494218
 mas "iMovie", id: 408981434
+mas "Pixelmator Pro", id: 1289583905
 mas "Scratch 3", id: 1446785996
 mas "Sleep Mode Utility", id: 1206520984
 mas "StopTheMadness", id: 1376402589
 mas "Tampermonkey", id: 1482490089
 mas "Tweetbot", id: 1384080005
+mas "Vinegar", id: 1591303229
 mas "Xcode", id: 497799835
