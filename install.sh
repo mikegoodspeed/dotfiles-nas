@@ -25,7 +25,7 @@ echo "Linking .inputrc"
 ln -sf $DOTFILES_DIR/.inputrc
 
 echo "Linking .profile"
-ln -s $DOTFILES_DIR/.profile
+ln -sf $DOTFILES_DIR/.profile
 
 echo "Linking .vimrc"
 mkdir -p .vim/backup .vim/swap .vim/view .vim/undo
