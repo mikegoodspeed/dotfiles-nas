@@ -1,5 +1,3 @@
-# https://github.com/zsh-users/zsh
-
 # history
 HISTFILE=~/.zsh_history
 HISTSIZE=500000
@@ -23,8 +21,4 @@ bindkey "\e[F" end-of-line        # end
 bindkey "\e[1;5C" forward-word    # ctrl+right
 bindkey "\e[1;5D" backward-word   # ctrl+left
 
-# homebrew
-eval "$(/opt/homebrew/bin/brew shellenv)"
-
-source .zplugrc
 source .aliases

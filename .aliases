@@ -1,31 +1,15 @@
-# GNU coreutils
-PATH="$HOMEBREW_PREFIX/opt/coreutils/libexec/gnubin:$PATH"
+# set path
+export PATH=/sbin:/bin:/usr/sbin:/usr/bin:/usr/syno/sbin:/usr/syno/bin:/usr/local/sbin:/usr/local/bin
 
-# GNU findutils
-PATH="$HOMEBREW_PREFIX/opt/findutils/libexec/gnubin:$PATH"
+# set prompt
+export PS1="%B%n@%m%b:%~$ "
 
 # bat as a cat replacement
 alias cat="bat -p"
 
-# use bat to colorize manpages
-export MANPAGER="sh -c 'col -bx | bat -l man -p'"
- 
-# lsd as a ls replacement
-alias ls="lsd"
+# exa as a ls replacement
+alias ls="exa"
 alias ll="ls -l"
 alias la="ls -a"
 alias lla="ls -la"
 alias lt="ls --tree"
-
-# pip for python package management
-export PIP_DISABLE_PIP_VERSION_CHECK=1
-
-# pyenv to manage python versions
-eval "$(pyenv init --path)"
-eval "$(pyenv init -)"
-
-# poetry for python development
-export PATH="$HOME/.poetry/bin:$PATH"
-
-# pipx to run isolated python packages
-export PATH="$HOME/.local/bin:$PATH"

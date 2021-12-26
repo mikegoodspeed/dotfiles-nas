@@ -15,9 +15,6 @@ ln -sf $DOTFILES_DIR/.bash_profile
 echo "Linking .bashrc"
 ln -sf $DOTFILES_DIR/.bashrc
 
-echo "Linking .Brewfile"
-ln -sf $DOTFILES_DIR/.Brewfile
-
 echo "Linking .gitconfig"
 ln -sf $DOTFILES_DIR/.gitconfig
 
@@ -27,19 +24,12 @@ ln -sf $DOTFILES_DIR/.hushlogin
 echo "Linking .inputrc"
 ln -sf $DOTFILES_DIR/.inputrc
 
+echo "Linking .profile"
+ln -s $DOTFILES_DIR/.profile
+
 echo "Linking .vimrc"
 mkdir -p .vim/backup .vim/swap .vim/view .vim/undo
 ln -sf $DOTFILES_DIR/.vimrc
 
-echo "Linking .zplugrc"
-ln -sf $DOTFILES_DIR/.zplugrc
-
 echo "Linking .zshrc"
 ln -sf $DOTFILES_DIR/.zshrc
-
-echo "Installing Homebrew bundle"
-brew bundle install --global --no-lock
-brew bundle cleanup --global --force
-
-echo "Installing Iterm2 Preferences"
-ln -sf $DOTFILES_DIR/.iterm.plist ~/Library/Preferences/com.googlecode.iterm2.plist
