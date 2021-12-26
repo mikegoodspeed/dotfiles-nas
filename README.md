@@ -1,2 +1,2 @@
 # dotfiles-mac
-System Configuration for macOS
+System Configuration for Synology NAS
